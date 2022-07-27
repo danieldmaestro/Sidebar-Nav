@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 70%;
+}
+
+body{
+    background-color: rgb(219, 214, 214);
+
+}
+
+#container{
+    margin: auto;
+    width: 100%;
+}
+
+.bars{
+    font-size: 4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bars i{
+    margin: 2rem;
+}
+
+i{
+    color: red;
+}
+
+i:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.links li a{
+    text-decoration: none;
+    color: gray;
+    transition: 500ms;
+}
+
+a:hover{
+    transform: translate(0.5rem, 0); 
+}
+
+.links-anchor{
+    padding: 1.5rem;
+    display: block;
+    transition: 600ms;
+}
+
+.links-anchor:hover{
+    background-color: rgb(200, 108, 108);
+    cursor: pointer;
+    transform: translate(0.5rem, 0);
+}
+
+.sidenav{
+    width: 30%;
+    height: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    background-color: white;
+    transition: all 5s;
+    display: none;  
+}
+
+.open{
+    display: block; 
+    transition: display 5s;
+}
+
+.links{
+    font-size: 4rem;
+}
+
+.logo-container{
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
